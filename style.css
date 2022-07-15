@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: orange;
+}
+
+#error{
+    font-size: 10px;
+    color: green;
+}
+
+#userError{
+    font-size: 10px;
+}
+
+#box {
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+#box.show {
+    visibility: visible;
+}
